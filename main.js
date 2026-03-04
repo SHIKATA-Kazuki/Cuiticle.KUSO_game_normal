@@ -268,12 +268,12 @@ window.onload = function() {
         //////////////////////////////////////////////////
 
         var gameoverScene = new Scene();
-        gameoverScene.backgroundColor = "#25819A";
+        gameoverScene.backgroundColor = "#C84B73";
 
         var burnSpeed = 0.002;
 
         var gameover_IMG = new Sprite(1280,1280);
-        gameover_IMG.image = core.assets["bluegameover.jpg"];
+        gameover_IMG.image = core.assets["pinkgameover.jpg"];
         gameover_IMG.scaleX = DISP_SIZE/(1280);
         gameover_IMG.scaleY = DISP_SIZE/(1280);
         gameover_IMG.x = - DISP_SIZE/2
@@ -318,4 +318,5 @@ window.onload = function() {
     };
 
     core.start();
+
 };
